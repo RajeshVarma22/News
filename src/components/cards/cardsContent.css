@@ -1,0 +1,37 @@
+#cardsContent {
+  display: flex;
+  position: relative;
+}
+
+#articlesFrom {
+  width: 300px;
+  position: sticky;
+  top: 0px;
+  height: fit-content;
+  background-color: antiquewhite;
+  scroll-behavior: auto;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (max-width: 600px) {
+    #cardsContent {
+        display: flex;
+        flex-direction: column;
+    }
+    #articlesFrom {
+    width: fit-content;
+    position: static;
+    /* top: 0px; */
+    height: fit-content;
+    background-color: #c3f9cb;
+    scroll-behavior: auto;
+    padding: 10px;
+    display: flex;
+    flex-direction: row ;
+    flex-wrap: wrap;
+  }
+
+
+}
