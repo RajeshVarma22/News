@@ -97,7 +97,7 @@
 }
 
 .button-17:active {
-  box-shadow: 0 4px 4px 0 rgb(60 64 67 / 30%),
+  box-shadow: 0 4px 4px 0 rgba(30, 33, 34, 0.3),
     0 8px 12px 6px rgb(60 64 67 / 15%);
   outline: none;
 }
@@ -136,6 +136,6 @@
 @media screen and (max-width: 600px) {
 
   .button-17 {
-    margin: 5px;
+    margin: 6px;
   }
 }
